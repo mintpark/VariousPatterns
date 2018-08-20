@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B0B8C62D212AC4C900F3790D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B8C62C212AC4C900F3790D /* AppDelegate.swift */; };
-		B0B8C62F212AC4C900F3790D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B8C62E212AC4C900F3790D /* ViewController.swift */; };
+		B0B8C62F212AC4C900F3790D /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B8C62E212AC4C900F3790D /* ProductListViewController.swift */; };
 		B0B8C632212AC4C900F3790D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B8C630212AC4C900F3790D /* Main.storyboard */; };
 		B0B8C634212AC4CA00F3790D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B8C633212AC4CA00F3790D /* Assets.xcassets */; };
 		B0B8C637212AC4CA00F3790D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B8C635212AC4CA00F3790D /* LaunchScreen.storyboard */; };
+		B0B8C65B212AC7C700F3790D /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B8C65A212AC7C700F3790D /* ProductDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,13 +35,14 @@
 /* Begin PBXFileReference section */
 		B0B8C629212AC4C900F3790D /* VariousPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariousPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B8C62C212AC4C900F3790D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0B8C62E212AC4C900F3790D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0B8C62E212AC4C900F3790D /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		B0B8C631212AC4C900F3790D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0B8C633212AC4CA00F3790D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B8C636212AC4CA00F3790D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B8C638212AC4CA00F3790D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0B8C63D212AC4CA00F3790D /* VariousPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VariousPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B8C648212AC4CA00F3790D /* VariousPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VariousPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B8C65A212AC7C700F3790D /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				B0B8C62C212AC4C900F3790D /* AppDelegate.swift */,
-				B0B8C62E212AC4C900F3790D /* ViewController.swift */,
+				B0B8C62E212AC4C900F3790D /* ProductListViewController.swift */,
+				B0B8C65A212AC7C700F3790D /* ProductDetailViewController.swift */,
 				B0B8C630212AC4C900F3790D /* Main.storyboard */,
 				B0B8C633212AC4CA00F3790D /* Assets.xcassets */,
 				B0B8C635212AC4CA00F3790D /* LaunchScreen.storyboard */,
@@ -230,8 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B8C62F212AC4C900F3790D /* ViewController.swift in Sources */,
+				B0B8C62F212AC4C900F3790D /* ProductListViewController.swift in Sources */,
 				B0B8C62D212AC4C900F3790D /* AppDelegate.swift in Sources */,
+				B0B8C65B212AC7C700F3790D /* ProductDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

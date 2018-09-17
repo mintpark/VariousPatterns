@@ -113,18 +113,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sQ-0J-t5Z">
+                                <rect key="frame" x="329" y="485" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="uSR-cR-Bx4"/>
+                                </constraints>
+                                <state key="normal" title="next"/>
+                                <connections>
+                                    <action selector="showNextDetailView:" destination="TH1-3L-Wu7" eventType="touchUpInside" id="Pew-ca-TZE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5Y-hm-n77">
+                                <rect key="frame" x="16" y="485" width="31" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="f9u-Xg-aBY"/>
+                                </constraints>
+                                <state key="normal" title="prev"/>
+                                <connections>
+                                    <action selector="showPrevDetailView:" destination="TH1-3L-Wu7" eventType="touchUpInside" id="SQl-12-VGf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="e5Y-hm-n77" firstAttribute="top" secondItem="zbb-qC-szA" secondAttribute="bottom" constant="16" id="7Uw-nO-RCC"/>
                             <constraint firstItem="FJw-XR-Y5w" firstAttribute="top" secondItem="f3t-Z6-7mP" secondAttribute="top" id="CBt-3k-Mkk"/>
+                            <constraint firstItem="8sQ-0J-t5Z" firstAttribute="top" secondItem="e5Y-hm-n77" secondAttribute="top" id="Eha-Tj-CwO"/>
                             <constraint firstItem="zbb-qC-szA" firstAttribute="top" secondItem="rqM-tu-Aqq" secondAttribute="bottom" constant="16" id="GzU-sr-hPH"/>
                             <constraint firstItem="f3t-Z6-7mP" firstAttribute="trailing" secondItem="uPM-Bf-zui" secondAttribute="trailing" constant="16" id="PsZ-Kf-kKk"/>
                             <constraint firstItem="uPM-Bf-zui" firstAttribute="top" secondItem="FJw-XR-Y5w" secondAttribute="bottom" constant="16" id="WX8-gm-tLB"/>
+                            <constraint firstItem="f3t-Z6-7mP" firstAttribute="trailing" secondItem="8sQ-0J-t5Z" secondAttribute="trailing" constant="16" id="Wpd-QS-dxO"/>
                             <constraint firstItem="rqM-tu-Aqq" firstAttribute="top" secondItem="FJw-XR-Y5w" secondAttribute="bottom" constant="16" id="a9i-ke-mE7"/>
                             <constraint firstItem="f3t-Z6-7mP" firstAttribute="trailing" secondItem="FJw-XR-Y5w" secondAttribute="trailing" id="awd-gF-R5Y"/>
                             <constraint firstItem="rqM-tu-Aqq" firstAttribute="leading" secondItem="f3t-Z6-7mP" secondAttribute="leading" constant="16" id="hOu-Yf-ekB"/>
                             <constraint firstItem="FJw-XR-Y5w" firstAttribute="leading" secondItem="f3t-Z6-7mP" secondAttribute="leading" id="hQn-GS-fSt"/>
                             <constraint firstItem="zbb-qC-szA" firstAttribute="leading" secondItem="f3t-Z6-7mP" secondAttribute="leading" constant="16" id="p7R-xO-zzR"/>
+                            <constraint firstItem="e5Y-hm-n77" firstAttribute="leading" secondItem="f3t-Z6-7mP" secondAttribute="leading" constant="16" id="pyL-Ue-Tzb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="f3t-Z6-7mP"/>
                     </view>

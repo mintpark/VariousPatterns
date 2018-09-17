@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0162AA6214FD28E00303E50 /* CommandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0162AA5214FD28E00303E50 /* CommandManager.swift */; };
 		B0B8C62D212AC4C900F3790D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B8C62C212AC4C900F3790D /* AppDelegate.swift */; };
 		B0B8C62F212AC4C900F3790D /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B8C62E212AC4C900F3790D /* ProductListViewController.swift */; };
 		B0B8C632212AC4C900F3790D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B8C630212AC4C900F3790D /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		B0D8F5FC214FA9D700D6E966 /* ProductDetailWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D8F5FB214FA9D700D6E966 /* ProductDetailWireFrame.swift */; };
 		B0D8F5FE214FAA1300D6E966 /* ProductListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D8F5FD214FAA1300D6E966 /* ProductListInteractor.swift */; };
 		B0D8F600214FAA2400D6E966 /* ProductDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D8F5FF214FAA2400D6E966 /* ProductDetailInteractor.swift */; };
+		B0D8F603214FAB5400D6E966 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D8F602214FAB5400D6E966 /* Commands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B0162AA5214FD28E00303E50 /* CommandManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandManager.swift; sourceTree = "<group>"; };
 		B0B8C629212AC4C900F3790D /* VariousPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariousPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B8C62C212AC4C900F3790D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0B8C62E212AC4C900F3790D /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 		B0D8F5FB214FA9D700D6E966 /* ProductDetailWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailWireFrame.swift; sourceTree = "<group>"; };
 		B0D8F5FD214FAA1300D6E966 /* ProductListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractor.swift; sourceTree = "<group>"; };
 		B0D8F5FF214FAA2400D6E966 /* ProductDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailInteractor.swift; sourceTree = "<group>"; };
+		B0D8F602214FAB5400D6E966 /* Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		B0B8C62B212AC4C900F3790D /* VariousPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				B0D8F601214FAB4400D6E966 /* Commands */,
 				B0D8F5F8214FA9B400D6E966 /* Interactor */,
 				B0D8F5F7214FA9AA00D6E966 /* WireFrame */,
 				B0D1FB8E214F8449002CDDD0 /* Presenter */,
@@ -153,6 +158,15 @@
 				B0D8F5FF214FAA2400D6E966 /* ProductDetailInteractor.swift */,
 			);
 			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B0D8F601214FAB4400D6E966 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				B0D8F602214FAB5400D6E966 /* Commands.swift */,
+				B0162AA5214FD28E00303E50 /* CommandManager.swift */,
+			);
+			path = Commands;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +306,9 @@
 				B0D1FB92214F850D002CDDD0 /* ProductListPresenter.swift in Sources */,
 				B0B8C65B212AC7C700F3790D /* ProductDetailViewController.swift in Sources */,
 				B0D8F5FE214FAA1300D6E966 /* ProductListInteractor.swift in Sources */,
+				B0D8F603214FAB5400D6E966 /* Commands.swift in Sources */,
 				B0D8F5FC214FA9D700D6E966 /* ProductDetailWireFrame.swift in Sources */,
+				B0162AA6214FD28E00303E50 /* CommandManager.swift in Sources */,
 				B0D1FB96214F885E002CDDD0 /* Product.swift in Sources */,
 				B0D8F5FA214FA9CB00D6E966 /* ProductListWireFrame.swift in Sources */,
 				B0D8F600214FAA2400D6E966 /* ProductDetailInteractor.swift in Sources */,

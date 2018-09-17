@@ -22,7 +22,8 @@ class ProductListPresenter: NSObject {
     }
     
     func pushProductDetail(_ product: Product) {
-        wireFrame?.pushProductDetail(product, from: view)
+//        wireFrame?.pushProductDetail(product, from: view)
+        self.post(notificationName: CommandProductDetail, product: product)
     }
     
 }
